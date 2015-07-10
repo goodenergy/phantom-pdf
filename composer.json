@@ -19,5 +19,10 @@
             "PhantomPdf\\": "src"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-phantomjs2": "1.0.x-dev"
+        }
+    },
     "minimum-stability": "stable"
 }
