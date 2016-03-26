@@ -1,5 +1,5 @@
 {
-    "name": "danielboendergaard/phantom-pdf",
+    "name": "goodenergy/phantom-pdf",
     "description": "A Package for generating PDF files using PhantomJS",
     "keywords": ["pdf", "html", "laravel"],
     "license": "MIT",
