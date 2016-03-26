@@ -76,6 +76,8 @@ return [
     'command_line_options' => [
         //'--ignore-ssl-errors=true',
         //'--debug=true',
-    ]
+    ],
+
+    'script' => 'rasterize.js'
 
 ];

@@ -33,6 +33,8 @@ class Laravel5ServiceProvider extends ServiceProvider
 
             $generator->setTimeout($this->app['config']['phantom-pdf.timeout']);
 
+            $generator->useScript($this->app['config']['phantom-pdf.script'] ?: 'generate-pdf.js');
+
             foreach ($this->app['config']['phantom-pdf.command_line_options'] as $option) {
                 $generator->addCommandLineOption($option);
             }

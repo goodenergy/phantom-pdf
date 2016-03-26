@@ -46,7 +46,7 @@ class PdfGenerator
     /**
      * @var string
      */
-    protected $convertScript = 'generate-pdf.js';
+    protected $convertScript;
 
     /**
      * Create a PDF from a view or string
